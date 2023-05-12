@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gestion.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Actas</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="btn-menu"></div>
+        <div class="logo">
+          <h1>Bienvenido</h1>
+        </div>
+        <nav class="menu">
+          <a href="menu_lateral.html">Solicitudes</a>
+          <a href="gestion-copy.html">Actas</a>
+          <a href="#">Pendiente</a>
+        </nav>
+      </div>
+      <section class="cont">
+        <div class="sidebar">
+          <div class="side-hide">
+            <i class="fa fa-times-circle" aria-hidden="true"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Presidencia</a>
+            </li>
+            <li>
+              <a href="#">Vice-presidencia</a>
+            </li>
+            <li>
+              <a href="#">Secretaria</a>
+            </li>
+            <li>
+              <a href="#">Tesoreria</a>
+            </li>
+            <li>
+              <a href="#">Revisoria fiscal</a>
+            </li>
+            <li>
+              <a href="#">Lista afilados</a>
+            </li>
+            <li>
+              <a href="#">Lista jugadores</a>
+            </li>
+            <li>
+              <a href="#">Lista coach's</a>
+            </li>
+          </ul>
+        </div>
+        <button>Ver navegacion</button>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+        <script>
+          $("button").on("click", function () {
+            $(".cont").toggleClass("show");
+          });
+
+          $(".side-hide").on("click", function () {
+            $(".cont").toggleClass("show");
+          });
+        </script>
+      </section>
+      <section class="gest">
+        <div class="form-body">
+          <p class="text">Actas</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+
+        <div class="form-body2">
+          <p class="text">Certifcados</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+
+        <div class="form-body3">
+          <p class="text">Reuniones</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+      </section>
+      <section class="gest2">
+        <div class="form-body4">
+          <p class="text">Asistencia</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+
+        <div class="form-body5">
+          <p class="text">Estado de cuenta</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+
+        <div class="form-body6">
+          <p class="text">Comunicacion</p>
+          <hr class="line" />
+          <form class="fila">
+            <button class="boton">Gestionar</button>
+          </form>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
